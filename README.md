@@ -3,7 +3,7 @@
 Personal portfolio for **Shivam Sharma** — AI Agent & Systems Builder specializing in Revenue Automation. This web application highlights projects, skills, and experiences in building AI systems that generate leads, automate outreach, and recover revenue for businesses.
 
 ## 🚀 Live Demo
-[*(Add your Vercel/Netlify live link here)*](https://ai-portfolio-two-sand.vercel.app/)
+https://ai-portfolio-two-sand.vercel.app/
 
 ## ✨ Features
 * **Modern UI/UX:** Clean, dark-themed, and responsive design built with Tailwind CSS.
