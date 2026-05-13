@@ -1,5 +1,6 @@
-import { ExternalLink, Github, FolderGit2 } from 'lucide-react';
+import { ExternalLink, Github, FolderGit2, BarChart3, ArrowUpRight, Activity, Database, Bot, Zap } from 'lucide-react';
 import { motion } from 'motion/react';
+import React from 'react';
 
 const projects = [
   {
@@ -9,7 +10,7 @@ const projects = [
     tech: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
     link: 'https://archrevenues.com',
     github: 'https://github.com/shivamsharma-3/arch-revenues',
-    image: '/ARCH.png',
+    image: 'https://api.microlink.io/?url=https://archrevenues.com&screenshot=true&meta=false&embed=screenshot.url',
   },
   {
     title: 'RevRecovery',
@@ -18,7 +19,7 @@ const projects = [
     tech: ['React', 'TypeScript', 'Tailwind CSS', 'AI'],
     link: 'https://revrecovery.vercel.app',
     github: 'https://github.com/shivamsharma-3/RevRecovery',
-    image: '/RevRecovery.png',
+    image: 'https://api.microlink.io/?url=https://revrecovery.vercel.app&screenshot=true&meta=false&embed=screenshot.url',
   },
   {
     title: 'FileVault',
@@ -78,7 +79,7 @@ export function Projects() {
             transition={{ duration: 0.6 }}
             className={`flex flex-col ${index % 2 === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-8 lg:gap-16 items-center`}
           >
-            <div className="w-full lg:w-1/2 aspect-video rounded-2xl overflow-hidden relative bg-white/5 border border-white/10">
+            <div className="w-full lg:w-1/2 aspect-video rounded-2xl overflow-hidden relative bg-white/5 border border-white/10 flex-shrink-0">
               {project.image ? (
                 <img 
                   src={project.image} 
